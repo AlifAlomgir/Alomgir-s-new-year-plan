@@ -1,0 +1,62 @@
+/* header style */
+
+header {
+
+
+    display: flex;
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 230px;
+
+
+}
+
+.blank {
+
+    width: 60%;
+}
+
+.banner {
+
+
+    width: 40%;
+    text-align: right;
+
+}
+
+.header-title {
+
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    font-family: 'Work Sans';
+    font-style: normal;
+    margin-bottom: 24px;
+}
+
+.header-description {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 32px;
+
+}
+
+.header-button {
+
+    width: 160px;
+    height: 64px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
